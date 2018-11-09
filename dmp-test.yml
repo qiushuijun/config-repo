@@ -42,7 +42,7 @@ cache:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.0.69:1001/eureka/
+      defaultZone: http://127.0.0.1:1001/eureka/
 #多网卡需要把这配置开了
   instance:
       prefer-ip-address: true
