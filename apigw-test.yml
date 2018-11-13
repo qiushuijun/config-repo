@@ -5,7 +5,7 @@ zuul:
       serverId: ocp
     dmp:
       path: /dmp/**
-      url: http://192.168.150.129:8002/
+      serverId: dmp
       retryable: true
 
 
@@ -18,7 +18,7 @@ eureka:
       #有时启动失败失因为开了无线网络
   instance:
       prefer-ip-address: true
-      ip-address: 127.0.0.1
+      ip-address: 192.168.150.129
       
 token:
   signingKey: iotstp17518
