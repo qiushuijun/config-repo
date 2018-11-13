@@ -8,7 +8,9 @@ zuul:
       url: http://192.168.150.129:8002/
       retryable: true
 
-
+ribbon:
+  eureka:
+    enabled: false
  
  
 eureka:
