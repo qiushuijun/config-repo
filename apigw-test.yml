@@ -7,8 +7,6 @@ zuul:
       path: /dmp/**
       url: http://192.168.150.129:8002/
       retryable: true
-      stripPrefix: false
-
  
 eureka:
   client:
