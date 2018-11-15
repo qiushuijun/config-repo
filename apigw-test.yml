@@ -5,17 +5,17 @@ zuul:
       serverId: ocp
     dmp:
       path: /dmp/**
-      url: http://192.168.150.129:8002/
+      url: http://127.0.0.1:8002/
       retryable: true
  
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.150.129:1001/eureka/
+      defaultZone: http://127.0.0.1:1001/eureka/
       #有时启动失败失因为开了无线网络
   instance:
       prefer-ip-address: true
-      ip-address: 192.168.150.129
+      ip-address: 127.0.0.1
       
 token:
   signingKey: iotstp17518
