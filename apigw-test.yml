@@ -5,7 +5,7 @@ zuul:
       serverId: ocp
     dmp:
       path: /dmp/**
-      url: http://192.168.150.129:8002/
+      serverId: dmp
       retryable: true
  
 eureka:
