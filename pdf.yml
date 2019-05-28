@@ -30,7 +30,7 @@ spring:
 cache:
   expireTime: 5555555
 
-#REST≥¨ ±≈‰÷√
+#REST
 rest:
   ReadTimeout: 30000
   ConnectTimeout: 3000
