@@ -77,4 +77,4 @@ idGenerator:
   dataId: 1
 
 pdf:
-  activation:true
+  activation: true

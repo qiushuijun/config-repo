@@ -75,3 +75,6 @@ hystrix:
 idGenerator:
   workId: 1
   dataId: 1
+
+pdf:
+  activation:true
